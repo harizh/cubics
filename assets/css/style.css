@@ -250,3 +250,67 @@ footer {
   color: #4d093e;
   text-decoration: none;
 }
+.projects {
+  background: rgba(5, 41, 66, 0.1);
+}
+.themeHeadTwo {
+  font-size: 1.4rem !important;
+  padding-top: 1rem;
+  color: #4d093e;
+  position: relative;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.p-card {
+  height: 100%;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-bottom: 0;
+}
+.p-card .row {
+  height: 100%;
+}
+.bgDark {
+  background-color: #4d093e;
+  color: #fff;
+}
+.bgLight {
+  background-color: #fff;
+  color: #000;
+}
+.pro-card {
+  height: 25rem;
+}
+.coverCenter {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.projectDescrT1 h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.projectDescrT1 p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.projectDescrT2 h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.projectDescrT2 p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.projectCard {
+  height: 100%;
+}
+.projectDescrT2 {
+  height: 100%;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
