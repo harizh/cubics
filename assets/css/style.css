@@ -1,192 +1,252 @@
-@font-face { font-family: Aeonik-light; src: url('../fonts/Aeonik-Light.otf'); } 
-@font-face { font-family: Aeonik-regular; src: url('../fonts/Aeonik-Regular.otf'); } 
+@font-face {
+  font-family: Aeonik-light;
+  src: url("../fonts/Aeonik-Light.otf");
+}
+@font-face {
+  font-family: Aeonik-regular;
+  src: url("../fonts/Aeonik-Regular.otf");
+}
 body {
-    min-height: 75rem;
-    padding-top: 6rem;
+  min-height: 75rem;
+  padding-top: 6rem;
 }
-.popularRetreat{
-    display: flex;
-    justify-content: center;
+.popularRetreat {
+  display: flex;
+  justify-content: center;
 }
-.bg-nav{
-    /* background-color: rgba(128, 130, 132 , 0.7); */
-    background: #a6a7a9;
-    height: 6rem;
+.bg-nav {
+  /* background-color: rgba(128, 130, 132 , 0.7); */
+  background: #a6a7a9;
+  height: 6rem;
 }
-.nav-link{
-    font-size: 1.05rem;
-    text-transform: uppercase;
-    font-family: Aeonik-light;
+.nav-link {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-family: Aeonik-light;
 }
-.navbar-expand-md .navbar-nav .nav-link{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 0;
-    padding-bottom: 0;
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-.nav-item:last-child{
-    border-left: 1px solid #dadada;
+.nav-item:last-child {
+  border-left: 1px solid #dadada;
 }
-.bannerContent{
-    background-color: rgba(128, 130, 132 , 1);
-    display: flex;
-    justify-content: center;
-    padding: 3rem 0;
+.bannerContent {
+  background-color: rgba(128, 130, 132, 1);
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
 }
-.bannerContent h4{
-    font-size: 1.35rem;
-    color: #fff;
-    font-family: Aeonik-regular;
-    font-weight: 300;
-    line-height: 30px;
+.bannerContent h4 {
+  font-size: 1.35rem;
+  color: #fff;
+  font-family: Aeonik-regular;
+  font-weight: 300;
+  line-height: 30px;
 }
-.bannerContent p{
-    font-size: 1rem;
-    color: #fff;
-    font-family: Aeonik-light;
-    font-weight: 300;
-    line-height: 22px;
-    margin-bottom: 0;
+.bannerContent p {
+  font-size: 1rem;
+  color: #fff;
+  font-family: Aeonik-light;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 0;
 }
-.popularRetreat{
-    padding: 5rem 0;
+.popularRetreat {
+  padding: 5rem 0;
 }
-.popularRetreat h2{
-    font-size: 2.1rem;
-    font-family: Aeonik-light;
-    margin-bottom: 1.5rem;
+.popularRetreat h2 {
+  font-size: 2.1rem;
+  font-family: Aeonik-light;
+  margin-bottom: 1.5rem;
 }
-.popularRetreat img{
-    width: 100%;
+.popularRetreat img {
+  width: 100%;
 }
-.workSec{    
-    height: 100%;
-    position: relative;
+.workSec {
+  height: 100%;
+  position: relative;
 }
-.workSec p{
-    font-size: 0.9rem;
-    color: #000;
-    font-family: Aeonik-light;
-    font-weight: 300;
-    line-height: 22px;
-    margin-bottom: 0;   
-    padding: 2rem; 
+.workSec p {
+  font-size: 0.9rem;
+  color: #000;
+  font-family: Aeonik-light;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 0;
+  padding: 2rem;
 }
-.cont{
-    position: relative;
+.cont {
+  position: relative;
 }
 
-.workOne{
-    background-color: rgba(128, 130, 132, 0.5);
-    padding-bottom: 3rem;
+.workOne {
+  background-color: rgba(128, 130, 132, 0.5);
+  padding-bottom: 3rem;
 }
-.workTwo{
-    background-color: #EDEDED;
+.workTwo {
+  background-color: #ededed;
 }
-.workThree{
-    background-color: #808284;
+.workThree {
+  background-color: #808284;
 }
-.ovrLybtn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: #fff;
-    padding: 0.25rem 0.75rem;
-    border: 1px solid #fff;
+.ovrLybtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #fff;
 }
-.imgWo{
-    overflow: hidden;
+.imgWo {
+  overflow: hidden;
 }
-.workThree img{
-    height: 100%;
-    width: 100% !important;
-    object-fit: cover;
-    object-position: right;
+.workThree img {
+  height: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: right;
 }
-.workSec .row{
-    height: 100%;
+.workSec .row {
+  height: 100%;
 }
-.workThree p{
-    padding-top: 6rem;
-    padding-bottom: 0;
-    color: #fff;
+.workThree p {
+  padding-top: 6rem;
+  padding-bottom: 0;
+  color: #fff;
 }
-.whyUs{
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url(../img/banner-bg.png);
-    background-size: cover;
-    background-position: center;
-    min-height: 25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.whyUs {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(../img/banner-bg.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.whyUs .head01{
-    font-size: 2rem;
-    font-family: Aeonik-regular;
-    color: #4d093e;
+.whyUs .head01 {
+  font-size: 2rem;
+  font-family: Aeonik-regular;
+  color: #4d093e;
 }
-.whyUs .head02{
-    font-size: 1.5rem;
-    font-family: Aeonik-regular;
+.whyUs .head02 {
+  font-size: 1.5rem;
+  font-family: Aeonik-regular;
 }
-.whyUs hr{
-    border-top: 2px solid #4d093e;
+.whyUs hr {
+  border-top: 2px solid #4d093e;
 }
-.whyUs .cardOne{
-    background-color: #4d093e;
-    width: 180px;
-    height: 180px;
-    text-align: left;
-    padding: 1rem;
-    color: #fff;
+.whyUs .cardOne {
+  background-color: #4d093e;
+  width: 180px;
+  height: 180px;
+  text-align: left;
+  padding: 1rem;
+  color: #fff;
 }
-.whyUs .cardOne h5{
-    font-family: Aeonik-light;
-    font-size: 1.1rem;
-    padding-top: 0.5rem;
+.whyUs .cardOne h5 {
+  font-family: Aeonik-light;
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
 }
-footer{
-    background-color: #4d093e;
-    padding: 3.5rem;
-    display: flex;
-    justify-content: center;
+footer {
+  background-color: #4d093e;
+  padding: 3.5rem;
+  display: flex;
+  justify-content: center;
 }
-.f-about{
-    color: #fff;
-    padding-right: 4rem;
+.f-about {
+  color: #fff;
+  padding-right: 4rem;
 }
-.f-about h3{
-    font-size: 1.25rem;
-    font-family: Aeonik-regular;
-    padding-top: 3rem;
+.f-about h3 {
+  font-size: 1.25rem;
+  font-family: Aeonik-regular;
+  padding-top: 3rem;
 }
-.f-about p{
-    font-size: 0.85rem;
-    font-family: Aeonik-light;
-    margin-bottom: 0;
+.f-about p {
+  font-size: 0.85rem;
+  font-family: Aeonik-light;
+  margin-bottom: 0;
 }
-.f-address{
-    display: flex;
-    align-items: flex-start;
-    color: #fff;
-    font-size: 1rem;
-    justify-content: space-evenly;
-    border-right: 1px solid #fff;
+.f-address {
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  font-size: 1rem;
+  justify-content: space-evenly;
+  border-right: 1px solid #fff;
 }
-.f-contact ul{
-    list-style: none;
-    color: #fff;
-    font-size: 1rem;
+.f-contact ul {
+  list-style: none;
+  color: #fff;
+  font-size: 1rem;
 }
-.f-contact ul a{
-    color: #fff;
-    font-size: 1rem;
-    text-decoration: none;
+.f-contact ul a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
 }
-.copyright{
-    font-size: 0.8rem;
-    color: #fff;
-    padding-left: 15px;
-    padding-top: 2rem;
+.copyright {
+  font-size: 0.8rem;
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 2rem;
+}
+.themeHead {
+  font-size: 1.4rem !important;
+  padding-top: 1rem;
+  color: #4d093e;
+  position: relative;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.themeHead::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background: #4d093e;
+  left: 0;
+  bottom: 0px;
+}
+.boxGray {
+  background: #707070;
+  border: 1px soldi #707070;
+  padding: 20px;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.servCont {
+  font-size: 0.9rem;
+}
+.ourServices {
+  list-style: none;
+  padding-left: 0;
+}
+.ourServices li {
+  display: inline-block;
+  margin-right: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16px;
+}
+.ourServices li a {
+  color: #000;
+  text-decoration: none;
+}
+.ourServices li a:hover {
+  color: #4d093e;
+  text-decoration: none;
 }
