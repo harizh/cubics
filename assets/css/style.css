@@ -65,6 +65,9 @@ body {
 .popularRetreat img {
   width: 100%;
 }
+.projects img {
+  height: 100%;
+}
 .workSec {
   height: 100%;
   position: relative;
@@ -179,16 +182,22 @@ footer {
 }
 .f-address {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   color: #fff;
   font-size: 1rem;
   justify-content: space-evenly;
   border-right: 1px solid #fff;
 }
+.f_addrs {
+  display: flex;
+}
 .f-contact ul {
   list-style: none;
   color: #fff;
   font-size: 1rem;
+}
+.f-contact ul li {
+  padding-bottom: 10px;
 }
 .f-contact ul a {
   color: #fff;
@@ -313,4 +322,58 @@ footer {
 }
 .pb20 {
   padding-bottom: 20px;
+}
+.projectDescrT1 {
+  padding: 2rem;
+}
+.projectDescrT2 {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.col-md-7 .projImgT1 {
+  height: 100%;
+}
+.f-contact img {
+  height: 1.125rem;
+}
+.location {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .bg-nav {
+    background: #a6a7a9;
+    height: auto;
+  }
+  body {
+    min-height: 75rem;
+    padding-top: 4rem;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-top: 1.5rem;
+    padding-left: 0;
+  }
+  .nav-item:last-child {
+    border-left: none !important;
+  }
+  .whyUs .col-lg-3 {
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  footer {
+    padding: 3.5rem 1rem;
+  }
+  .f-address {
+    margin: 1.5rem 0;
+    border-right: 0 !important;
+  }
+  .f-contact ul {
+    padding-left: 0;
+  }
 }
