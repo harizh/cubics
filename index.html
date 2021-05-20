@@ -12,7 +12,11 @@
     <title>Cubics</title>
 </head>
 
-<body>
+<body onload="myFunction()">
+<div id="loading">
+    <img src="https://img.devrant.com/devrant/rant/r_228415_fDWmt.gif">
+</div>
+
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-nav">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -218,7 +222,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="row">
-                        <div class="col-lg-7 f-address">
+                        <div class="col-lg-8 f-address">
                             <div class="f_addrs">
                                 <img src="assets/img/icon-location.png" class="location">
                                 <p>
@@ -228,7 +232,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-5 f-contact">
+                        <div class="col-lg-4 f-contact">
                             <ul>
                                 <li><a href="#"><img src="assets/img/icon-call.png"> +971 4 335 6422</a></li>
                                 <li><a href="#"><img src="assets/img/icon-fax.png"> +971 4 335 6411</a></li>
@@ -253,6 +257,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script>
+        var preloader = document.getElementById("loading");
+
+        function myFunction() {
+            preloader.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

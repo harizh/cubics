@@ -6,6 +6,29 @@
   font-family: Aeonik-regular;
   src: url("../fonts/Aeonik-Regular.otf");
 }
+@font-face {
+  font-family: Avenir-light;
+  src: url("../fonts/AvenirLTStd-Light.otf");
+}
+@font-face {
+  font-family: Avenir-book;
+  src: url("../fonts/AvenirLTStd-Book.otf");
+}
+@font-face {
+  font-family: Avenir-black;
+  src: url("../fonts/Aeonik-Black.otf");
+}
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255);
+  z-index: 9999;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body {
   min-height: 75rem;
   padding-top: 6rem;
@@ -42,14 +65,14 @@ body {
 .bannerContent h4 {
   font-size: 1.35rem;
   color: #fff;
-  font-family: Aeonik-regular;
+  font-family: Avenir-light;
   font-weight: 300;
   line-height: 30px;
 }
 .bannerContent p {
   font-size: 1rem;
   color: #fff;
-  font-family: Aeonik-light;
+  font-family: Avenir-light;
   font-weight: 300;
   line-height: 22px;
   margin-bottom: 0;
@@ -59,7 +82,7 @@ body {
 }
 .popularRetreat h2 {
   font-size: 2.1rem;
-  font-family: Aeonik-light;
+  font-family: Avenir-light;
   margin-bottom: 1.5rem;
 }
 .popularRetreat img {
@@ -137,12 +160,12 @@ body {
 }
 .whyUs .head01 {
   font-size: 2rem;
-  font-family: Aeonik-regular;
+  font-family: Avenir-light;
   color: #4d093e;
 }
 .whyUs .head02 {
   font-size: 1.5rem;
-  font-family: Aeonik-regular;
+  font-family: Avenir-light;
 }
 .whyUs hr {
   border-top: 2px solid #4d093e;
@@ -156,7 +179,7 @@ body {
   color: #fff;
 }
 .whyUs .cardOne h5 {
-  font-family: Aeonik-light;
+  font-family: Avenir-light;
   font-size: 1.1rem;
   padding-top: 0.5rem;
 }
@@ -172,12 +195,12 @@ footer {
 }
 .f-about h3 {
   font-size: 1.25rem;
-  font-family: Aeonik-regular;
+  font-family: Avenir-book;
   padding-top: 3rem;
 }
 .f-about p {
   font-size: 0.85rem;
-  font-family: Aeonik-light;
+  font-family: Avenir-book;
   margin-bottom: 0;
 }
 .f-address {
@@ -187,24 +210,34 @@ footer {
   font-size: 1rem;
   justify-content: space-evenly;
   border-right: 1px solid #fff;
+  font-family: Avenir-book;
 }
 .f_addrs {
   display: flex;
 }
+.f_addrs p {
+  margin-bottom: 0 !important;
+  font-size: 0.95rem;
+}
+
 .f-contact ul {
   list-style: none;
   color: #fff;
   font-size: 1rem;
+  margin-bottom: 0;
+  padding-left: 10px;
 }
 .f-contact ul li {
   padding-bottom: 10px;
 }
 .f-contact ul a {
+  font-family: Avenir-book;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.95rem;
   text-decoration: none;
 }
 .copyright {
+  font-family: Avenir-book;
   font-size: 0.8rem;
   color: #fff;
   padding-left: 15px;
@@ -217,6 +250,7 @@ footer {
   position: relative;
   padding-bottom: 5px;
   text-transform: uppercase;
+  font-family: Avenir-light;
 }
 .themeHead::before {
   content: "";
@@ -227,6 +261,10 @@ footer {
   left: 0;
   bottom: 0px;
 }
+.themeHead.l-head {
+  font-size: 2rem !important;
+}
+
 .boxGray {
   background: #707070;
   border: 1px soldi #707070;
@@ -239,6 +277,7 @@ footer {
 }
 .servCont {
   font-size: 0.9rem;
+  font-family: Avenir-book;
 }
 .ourServices {
   list-style: none;
@@ -297,16 +336,21 @@ footer {
   object-position: center;
 }
 .projectDescrT1 h3 {
-  font-size: 1rem;
+  font-family: Avenir-black;
+  font-size: 0.95rem;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 0.05rem;
 }
 .projectDescrT1 p {
   font-size: 0.8rem;
   text-align: center;
+  font-family: Avenir-book;
 }
 .projectDescrT2 h3 {
-  font-size: 1rem;
+  font-family: Avenir-black;
+  font-size: 0.95rem;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -343,6 +387,10 @@ footer {
   height: 1.5rem;
   margin-right: 1rem;
   margin-top: 5px;
+}
+.aboutSec p {
+  font-family: Avenir-book;
+  font-size: 0.95rem;
 }
 
 @media only screen and (max-width: 767px) {
