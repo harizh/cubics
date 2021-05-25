@@ -83,7 +83,6 @@ body {
 .popularRetreat h2 {
   font-size: 2.1rem;
   font-family: Avenir-light;
-  margin-bottom: 1.5rem;
 }
 .popularRetreat img {
   width: 100%;
@@ -125,6 +124,11 @@ body {
   color: #fff;
   padding: 0.25rem 0.75rem;
   border: 1px solid #fff;
+  text-decoration: none;
+}
+a.ovrLybtn:hover {
+  text-decoration: none;
+  color: #faf8f0;
 }
 .imgWo {
   overflow: hidden;
@@ -392,7 +396,64 @@ footer {
   font-family: Avenir-book;
   font-size: 0.95rem;
 }
-
+.SlideHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.slideLink {
+  font-size: 1.2rem;
+  color: #ae2f35;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+.slideLink:hover {
+  font-size: 1.2rem;
+  color: #ae2f35;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.projectDet {
+  position: relative;
+  /* left: 100%; */
+  opacity: 0;
+  overflow: hidden;
+  height: 0;
+  transition: 0.3s ease-in-out;
+}
+.projectDet.active {
+  width: 100%;
+  position: relative;
+  left: 0%;
+  opacity: 1;
+  overflow: hidden;
+  height: auto;
+  transition: 0.5s ease-in-out;
+}
+.slideLink img {
+  width: auto;
+  height: 0.75rem;
+  margin-left: 10px;
+  object-fit: contain;
+  object-position: center;
+  transform: translateX(-10px);
+  transition: 0.3s;
+}
+.slideLink:hover img {
+  width: auto;
+  height: 0.75rem;
+  margin-left: 10px;
+  transition: 0.3s;
+  object-fit: contain;
+  object-position: center;
+  transform: translateX(0px);
+  transition: 0.3s;
+}
 @media only screen and (max-width: 767px) {
   .bg-nav {
     background: #a6a7a9;
@@ -423,5 +484,17 @@ footer {
   }
   .f-contact ul {
     padding-left: 0;
+  }
+  .SlideHead {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .themeHeadTwo {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+  .slideLink {
+    font-size: 0.95rem;
   }
 }
