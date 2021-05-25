@@ -454,6 +454,12 @@ footer {
   transform: translateX(0px);
   transition: 0.3s;
 }
+.com-br {
+  border-right: 1px solid #dadada;
+}
+.web-br {
+  border-right: 1px solid #dadada;
+}
 @media only screen and (max-width: 767px) {
   .bg-nav {
     background: #a6a7a9;
@@ -496,5 +502,29 @@ footer {
   }
   .slideLink {
     font-size: 0.95rem;
+  }
+  .web-br {
+    border-right: none;
+    padding: 0 3rem;
+  }
+  .com-br {
+    border-right: none;
+    padding: 0 3rem;
+  }
+  .no-br {
+    border-right: none;
+    padding: 0 3rem;
+  }
+  .location {
+    margin-right: 0.5rem;
+  }
+  .f_addrs p {
+    font-size: 0.85rem;
+  }
+  .f-contact img {
+    margin-right: 0.5rem;
+  }
+  .f-about {
+    padding-right: 0;
   }
 }
