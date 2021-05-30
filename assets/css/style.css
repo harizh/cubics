@@ -94,6 +94,16 @@ body {
   height: 100%;
   position: relative;
 }
+.featured-work-card {
+  height: 22rem;
+  overflow: hidden;
+}
+.featured-work-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .workSec p {
   font-size: 0.9rem;
   color: #000;
@@ -118,9 +128,9 @@ body {
   background-color: #808284;
 }
 .ovrLybtn {
-  position: absolute;
+  /* position: absolute;
   top: 20px;
-  right: 20px;
+  right: 20px; */
   color: #fff;
   padding: 0.25rem 0.75rem;
   border: 1px solid #fff;
@@ -171,6 +181,61 @@ a.ovrLybtn:hover {
   font-size: 1.5rem;
   font-family: Avenir-light;
 }
+.popularRetreat .head01 {
+  font-size: 2rem;
+  font-family: Avenir-light;
+  color: #4d093e !important;
+  text-align: center;
+}
+.popularRetreat .head-content {
+  font-size: 1rem;
+  font-family: Avenir-light;
+  text-align: center;
+  padding: 0 20% 2rem;
+}
+.featured-work-card {
+  position: relative;
+}
+.featured-work-card img {
+  transition: all 0.5s ease-in-out;
+}
+.featured-work-card:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.featured-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(166, 167, 169, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+.featured-overlay:hover {
+  background: rgba(166, 167, 169, 0);
+  transition: all 0.5s ease-in-out;
+}
+.featured-overlay span {
+  transition: all 0.5s ease-in-out;
+}
+.featured-overlay:hover span {
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+  background-color: #ffff;
+  color: #4d093e;
+}
 .whyUs hr {
   border-top: 2px solid #4d093e;
 }
@@ -192,6 +257,9 @@ footer {
   padding: 3.5rem;
   display: flex;
   justify-content: center;
+}
+a:hover {
+  text-decoration: none;
 }
 .f-about {
   color: #fff;
@@ -478,8 +546,8 @@ footer {
   }
   .whyUs .col-lg-3 {
     width: 50%;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    overflow: hidden;
+    padding: 4px;
   }
   footer {
     padding: 3.5rem 1rem;
@@ -526,5 +594,32 @@ footer {
   }
   .f-about {
     padding-right: 0;
+  }
+  .popularRetreat .head-content {
+    padding: 0 5% 2rem;
+  }
+  .featured-work-card {
+    height: 15rem;
+    margin-bottom: 15px;
+  }
+  .featured-overlay {
+    background: rgb(166 167 169 / 25%);
+  }
+  .whyUs .head01 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .whyUs .head02 {
+    font-size: 1.1rem;
+  }
+  .whyUs .cardOne {
+    width: auto;
+    height: auto;
+  }
+  .whyUs {
+    padding-bottom: 1.5rem !important;
+  }
+  .popularRetreat {
+    padding-bottom: 2rem;
   }
 }
