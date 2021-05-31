@@ -622,4 +622,10 @@ a:hover {
   .popularRetreat {
     padding-bottom: 2rem;
   }
+  .cardOne img {
+    height: 4rem;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+  }
 }
