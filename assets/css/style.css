@@ -131,7 +131,7 @@ body {
   /* position: absolute;
   top: 20px;
   right: 20px; */
-  color: #fff;
+  color: #4d093e;
   padding: 0.25rem 0.75rem;
   border: 1px solid #fff;
   text-decoration: none;
@@ -225,6 +225,7 @@ a.ovrLybtn:hover {
 }
 .featured-overlay span {
   transition: all 0.5s ease-in-out;
+  background: rgb(218 218 218 / 50%);
 }
 .featured-overlay:hover span {
   -webkit-transform: translateY(-10px);
