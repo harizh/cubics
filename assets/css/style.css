@@ -18,6 +18,9 @@
   font-family: Avenir-black;
   src: url("../fonts/Aeonik-Black.otf");
 }
+html {
+  scroll-behavior: smooth;
+}
 #loading {
   position: fixed;
   width: 100%;
