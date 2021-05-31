@@ -633,3 +633,7 @@ a:hover {
     object-position: center;
   }
 }
+
+.serviceCol {
+  padding-top: 5rem;
+}

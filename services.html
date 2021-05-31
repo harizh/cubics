@@ -39,7 +39,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"  id="menu">
                         <a class="dropdown-item" href="#turnkey">Turnkey</a>
                         <a class="dropdown-item" href="#project_management">Project Management</a>
                         <a class="dropdown-item" href="#design">design</a>
@@ -79,7 +79,7 @@
                 <div class="row ">
 
 
-                    <div class="col-md-4" id="turnkey">
+                    <div class="col-md-4 serviceCol" id="turnkey">
                         <img src="assets/img/service-img-01.png">
                         <h2 class="themeHead">TURNKEY FIT-OUT</h2>
                         <div class="boxGray">
@@ -103,7 +103,7 @@
                     </div>
 
 
-                    <div class="col-md-4" id="project_management">
+                    <div class="col-md-4 serviceCol" id="project_management">
                         <img src="assets/img/service-img-02.png">
                         <h2 class="themeHead">PROJECT MANAGEMENT</h2>
                         <div class="boxGray">
@@ -124,7 +124,7 @@
                     </div>
 
 
-                    <div class="col-md-4" id="design">
+                    <div class="col-md-4 serviceCol" id="design">
                         <img src="assets/img/service-img-03.png">
                         <h2 class="themeHead">DESIGN</h2>
                         <div class="boxGray">
@@ -221,6 +221,14 @@
         function myFunction() {
             preloader.style.display = "none";
         }
+    </script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#menu a').on('click', function () {
+                $(".navbar-collapse").removeClass("show");
+            });
+        });
     </script>
 </body>
 
