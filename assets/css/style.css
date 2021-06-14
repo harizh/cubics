@@ -674,3 +674,31 @@ a:hover {
   margin: 90px 0;
   font-family: Avenir-light;
 }
+.contactSec {
+  background: rgba(80, 8, 50, 0.14);
+}
+
+.contactForm label {
+  font-family: Avenir-light;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+.form-control {
+  border-radius: 0 !important;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #500832;
+}
+.btn-primary {
+  background: #500832 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  font-family: Avenir-light;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 6px 20px;
+  border: none;
+}
+.btn-primary:hover {
+  background: rgba(80, 8, 50, 0.9) 0% 0% no-repeat padding-box;
+}
