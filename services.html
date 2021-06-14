@@ -221,6 +221,9 @@
         function myFunction() {
             preloader.style.display = "none";
         }
+        window.addEventListener("hashchange", function () {
+                window.scrollTo(window.scrollX, window.scrollY - 100);
+            });
     </script>
 
     <script>
@@ -229,6 +232,7 @@
                 $(".navbar-collapse").removeClass("show");
             });
         });
+        
     </script>
 </body>
 

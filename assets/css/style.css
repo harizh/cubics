@@ -194,7 +194,7 @@ a.ovrLybtn:hover {
   font-size: 1rem;
   font-family: Avenir-light;
   text-align: center;
-  padding: 0 20% 2rem;
+  padding: 0 28% 2rem;
 }
 .featured-work-card {
   position: relative;
@@ -244,23 +244,52 @@ a.ovrLybtn:hover {
   border-top: 2px solid #4d093e;
 }
 .whyUs .cardOne {
-  background-color: #4d093e;
-  width: 180px;
-  height: 180px;
-  text-align: left;
+  /* background-color: #4d093e; */
+  /* width: 180px; */
+  /* height: 180px; */
+  text-align: center;
   padding: 1rem;
   color: #fff;
 }
+.whyUs .cardOne img {
+  height: 4.5rem;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+}
 .whyUs .cardOne h5 {
   font-family: Avenir-light;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
   padding-top: 0.5rem;
+  color: #000000;
+  text-transform: uppercase;
+}
+.projectCount {
+  padding: 2rem 0;
+  background: rgba(128, 130, 132, 0.32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectCount h1 {
+  color: #4d093e;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.projectCount p {
+  color: #4d093e;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 footer {
   background-color: #4d093e;
   padding: 3.5rem;
   display: flex;
   justify-content: center;
+}
+.countCard {
+  text-align: center;
 }
 a:hover {
   text-decoration: none;
