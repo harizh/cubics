@@ -666,3 +666,11 @@ a:hover {
 .serviceCol {
   padding-top: 5rem;
 }
+
+.ourClinetsText {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #4d093e;
+  margin: 90px 0;
+  font-family: Avenir-light;
+}
