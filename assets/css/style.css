@@ -85,8 +85,7 @@ body {
 }
 .ourClientsSec {
   padding: 5rem 0;
-  background: linear-gradient(0deg, rgb(51 51 51 / 70%), rgb(208 208 208 / 40%)),
-    url(../img/banner-bg.png);
+  background: url(../img/clients-bg.jpg);
   background-size: cover;
 }
 .popularRetreat h2 {
@@ -135,6 +134,11 @@ body {
 }
 .workThree {
   background-color: #808284;
+}
+.ourClinetsText{
+    font-family: 'Avenir-light';
+    font-size: 0.95rem;
+    font-weight: 300;
 }
 .ovrLybtn {
   /* position: absolute;
