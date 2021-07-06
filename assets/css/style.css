@@ -524,7 +524,7 @@ a:hover {
 .slideLink {
   font-size: 1.2rem;
   color: #ae2f35;
-  font-weight: 500;
+  font-weight: 300;
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -532,7 +532,6 @@ a:hover {
 .slideLink:hover {
   font-size: 1.2rem;
   color: #ae2f35;
-  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   text-decoration: none;
@@ -752,7 +751,8 @@ a:hover {
 }
 .bannerContent h4 {
   font-size: 3rem;
-  font-weight: 700;
-  color: #4d093e;
-  padding: 0.8rem;
+    font-weight: 700;
+    color: #4d093e;
+    padding: 0.8rem;
+    font-family: 'Avenir-black';
 }
