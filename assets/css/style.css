@@ -46,7 +46,7 @@ body {
   height: 6rem;
 }
 .nav-link {
-  font-size: 1.05rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   font-family: Aeonik-light;
 }
@@ -82,6 +82,12 @@ body {
 }
 .popularRetreat {
   padding: 5rem 0;
+}
+.ourClientsSec {
+  padding: 5rem 0;
+  background: linear-gradient(0deg, rgb(51 51 51 / 70%), rgb(208 208 208 / 40%)),
+    url(../img/banner-bg.png);
+  background-size: cover;
 }
 .popularRetreat h2 {
   font-size: 2.1rem;
@@ -134,7 +140,7 @@ body {
   /* position: absolute;
   top: 20px;
   right: 20px; */
-  color: #4d093e;
+  color: #fff;
   padding: 0.25rem 0.75rem;
   border: 1px solid #fff;
   text-decoration: none;
@@ -179,6 +185,7 @@ a.ovrLybtn:hover {
   font-size: 2rem;
   font-family: Avenir-light;
   color: #4d093e;
+  font-weight: 700;
 }
 .whyUs .head02 {
   font-size: 1.5rem;
@@ -194,7 +201,8 @@ a.ovrLybtn:hover {
   font-size: 1rem;
   font-family: Avenir-light;
   text-align: center;
-  padding: 0 28% 2rem;
+  padding: 0 18% 2rem;
+  line-height: 18px;
 }
 .featured-work-card {
   position: relative;
@@ -252,7 +260,7 @@ a.ovrLybtn:hover {
   color: #fff;
 }
 .whyUs .cardOne img {
-  height: 4.5rem;
+  height: 3.5rem;
   width: auto;
   object-fit: cover;
   object-position: center;
@@ -287,6 +295,9 @@ footer {
   padding: 3.5rem;
   display: flex;
   justify-content: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0 0 0 / 70%);
 }
 .countCard {
   text-align: center;
@@ -368,6 +379,9 @@ a:hover {
 }
 .themeHead.l-head {
   font-size: 2rem !important;
+}
+.themeHead.whFont {
+  color: #fff;
 }
 
 .boxGray {
@@ -561,10 +575,17 @@ a:hover {
 .web-br {
   border-right: 1px solid #dadada;
 }
+.br {
+  border-right: 2px solid #fff;
+}
 @media only screen and (max-width: 767px) {
   .bg-nav {
     background: #a6a7a9;
     height: auto;
+  }
+  .br {
+    border-bottom: 2px solid #fff;
+    border-right: none;
   }
   body {
     min-height: 75rem;
@@ -670,9 +691,10 @@ a:hover {
 .ourClinetsText {
   text-align: center;
   letter-spacing: 0px;
-  color: #4d093e;
-  margin: 90px 0;
+  color: #fff;
+  margin: 70px 0;
   font-family: Avenir-light;
+  font-weight: 600;
 }
 .contactSec {
   background: rgba(80, 8, 50, 0.14);
@@ -701,4 +723,32 @@ a:hover {
 }
 .btn-primary:hover {
   background: rgba(80, 8, 50, 0.9) 0% 0% no-repeat padding-box;
+}
+.sub-banner {
+  background-color: #6d4f68;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+.sub-banner h4 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.sub-banner p {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+.sub-banner .col-md-4 {
+  padding: 1.5rem 1.8rem;
+}
+.bannerContent h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #4d093e;
+  padding: 0.8rem;
 }
