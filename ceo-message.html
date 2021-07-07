@@ -13,7 +13,7 @@
     <title>Cubics</title>
 </head>
 
-<body onload="myFunction()" style="min-height: auto;">
+<body onload="myFunction()">
     <div id="loading">
         <img src="https://img.devrant.com/devrant/rant/r_228415_fDWmt.gif">
     </div>
@@ -28,13 +28,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="ceo-message.html">CEO’s MESSAGE</a>
                 </li>
                 <li class="nav-item">
@@ -66,7 +66,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="clients.html">Clients</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
@@ -79,40 +79,38 @@
 
     <main role="main" class="container-fluid p-0">
 
-        <section class="popularRetreat container-fluid contactSec">
-            <div class="col-md-10">
-                <h2 class="themeHead l-head">GET IN TOUCH</h2>
-                <div class="row d-flex justify-content-center pt-5">
-                    <div class="col-lg-7">
-                        <form class="contactForm">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="exampleInputEmail1">Name</label>
-                                    <input type="text" class="form-control" id="name" 
-                                        placeholder="">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="exampleInputEmail1">Enter Your Email</label>
-                                    <input type="email" class="form-control" id="email" 
-                                        placeholder="">
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="message">Your Message</label>
-                                    <textarea class="form-control" id="message" rows="8"></textarea>
-                                </div>
-                                <div class="col-md-12 d-flex justify-content-center">
-                                    <a class="btn btn-primary" href="#" role="button">Submit</a>
-                                </div>
-                            </div>
-                        </form>
+        <section class="ceo-message d-flex justify-content-center">
+            <div class="col-md-6">
+
+                <div class="row messageCard">
+                    <div class="col-md-4">
+                        <img src="assets/img/profile.png">
                     </div>
-                    
+                    <div class="col-md-8 profileContent">
+                        <p class="comingSoon">Coming Soon</p>
+                        <a class="btn-contact">
+                            Contact Us
+                        </a>
+                    </div>
                 </div>
+
+                <div class="row messageCard">
+                    <div class="col-md-4">
+                        <img src="assets/img/profile.png">
+                    </div>
+                    <div class="col-md-8 profileContent">
+                        <p class="comingSoon">Coming Soon</p>
+                        <a class="btn-contact">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
         </section>
 
-       
-
+        
     </main>
 
 <footer>
