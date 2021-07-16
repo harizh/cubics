@@ -581,7 +581,7 @@ a:hover {
   border-right: 1px solid #dadada;
 }
 .br {
-  border-right: 2px solid #fff;
+  border-right: 1px solid #fff;
 }
 @media only screen and (max-width: 767px) {
   .bg-nav {
@@ -737,8 +737,9 @@ a:hover {
   padding: 4rem 0;
 }
 .sub-banner h4 {
-  color: #fff;
-  font-size: 1.2rem;
+ color: #fff;
+    font-size: 1.1rem;
+    font-family: Avenir-black;
 }
 .sub-banner p {
   font-size: 0.8rem;
@@ -749,7 +750,7 @@ a:hover {
 }
 
 .sub-banner .col-md-4 {
-  padding: 1.5rem 1.8rem;
+  padding: 0.5rem 1.8rem;
 }
 .bannerContent h4 {
   font-size: 3rem;
