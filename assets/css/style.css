@@ -97,6 +97,8 @@ body {
 }
 .projects img {
   height: 100%;
+  width: 100%;
+    object-fit: cover;
 }
 .workSec {
   height: 100%;
@@ -526,7 +528,7 @@ a:hover {
 }
 .slideLink {
   font-size: 1.2rem;
-  color: #ae2f35;
+  color: #4D093E;
   font-weight: 300;
   text-decoration: none;
   cursor: pointer;
