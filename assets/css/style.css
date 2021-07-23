@@ -788,3 +788,9 @@ a:hover {
 .messageCard{
   margin: 4rem 0;
 }
+.custom-img{
+  height: 30rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
