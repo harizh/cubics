@@ -8,6 +8,7 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/favicon.png" type="image/gif" sizes="16x16">
     <title>Cubics</title>
@@ -99,38 +100,46 @@
                                     <div class="row" style="height: 100%;">
 
                                         <div class="col-md-12 pb20">
-                                            <div class="projectCard bgDark">
-                                                <div class="projImgT1">
+                                            <a class="projectCard bgDark" href="assets/img/banking1.jpg" data-lightbox="banking">
+                                                <div class="projImgT1 modalLink">
                                                     <img src="assets/img/banking1.jpg">
                                                 </div>
                                                 <div class="projectDescrT1">
                                                     <h3>EMIRATES NBD<br>BANK</h3>
-                                                    <!-- <p>LOCATION : DUBAI
-                                                        2 BRANCHES , DUBAI & ABU DHABI</p> -->
                                                 </div>
-                                            </div>
-                                        </div>                                        
+                                            </a>
+                                        
+                                            <a href="assets/img/banking1-01.jpg" data-lightbox="banking"></a>
+                                            <a href="assets/img/banking1-02.jpg" data-lightbox="banking"></a>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <div class="row no-gutters" style="height: 100%;">
-                                        <div class="col-md-5 pb20">
-                                            <div class="projectCard bgDark">
-                                                <div class="projectDescrT2">
-                                                    <h3>EMIRATES<br>DEVELOPMENT<br>BANK</h3>
+                                    <a class="projectCard" href="assets/img/banking2.jpg" data-lightbox="banking2">
+                                        <div class="row no-gutters" style="height: 100%;">
+                                            <div class="col-md-5 pb20">
+                                                <div class="projectCard bgDark">
+                                                    <div class="projectDescrT2">
+                                                        <h3>EMIRATES<br>DEVELOPMENT<br>BANK</h3>
+                                                        <!-- <p>LOCATION : DUBAI
+                                                                                            2 BRANCHES , DUBAI & ABU DHABI</p> -->
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-7 pb20">
-                                            <div class="projectCard">
-                                                <div class="projImgT1">
-                                                    <img src="assets/img/banking2.jpg">
+                                            <div class="col-md-7 pb20">
+                                                <div class="projectCard">
+                                                    <div class="projImgT1">
+                                                        <img src="assets/img/banking2.jpg">
+                                                    </div>
                                                 </div>
+                                
                                             </div>
-
                                         </div>
-                                    </div>
+                                    </a>
+                                
+                                    <a href="assets/img/banking2-01.jpg" data-lightbox="banking2"></a>
+                                    <a href="assets/img/banking2-02.jpg" data-lightbox="banking2"></a>
                                 </div>
 
                                
@@ -328,6 +337,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/lightbox.js"></script>
     <script>
         var preloader = document.getElementById("loading");
 

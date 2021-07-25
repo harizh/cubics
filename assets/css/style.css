@@ -810,3 +810,16 @@ a:hover {
     line-height: 22px;
     margin-bottom: 0;
 }
+.modalLink{
+  cursor: pointer;
+  color: #fff;
+}
+.modalLink:hover{
+  color: #dadada;
+}
+.projectCard{
+  display: block;
+}
+.projectCard:hover{
+  color: #fff;
+}
