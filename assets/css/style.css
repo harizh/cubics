@@ -796,3 +796,17 @@ a:hover {
     object-fit: cover !important;
     object-position: center !important;
 }
+.misionHead{
+  font-size: 3rem;
+    font-weight: 700;
+    color: #4d093e;
+    padding: 0.8rem;
+    font-family: 'Avenir-black';
+}
+.misioncont{
+      font-size: 1rem;
+    font-family: Avenir-light;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 0;
+}
