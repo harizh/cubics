@@ -94,7 +94,8 @@ body {
 }
 .popularRetreat h2 {
   font-size: 2.1rem;
-  font-family: Avenir-light;
+  font-family: eurotile;
+  text-transform: capitalize;
 }
 .popularRetreat img {
   width: 100%;
@@ -380,7 +381,7 @@ a:hover {
   text-transform: uppercase;
   font-family: Avenir-light;
 }
-.themeHead::before {
+/* .themeHead::before {
   content: "";
   position: absolute;
   height: 2px;
@@ -388,12 +389,19 @@ a:hover {
   background: #4d093e;
   left: 0;
   bottom: 0px;
-}
+} */
 .themeHead.l-head {
   font-size: 2rem !important;
 }
 .themeHead.whFont {
   color: #fff;
+}
+.contactRow{
+  background-image: url(../img/contactbg.png);
+    object-fit: contain;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 3rem;
 }
 
 .boxGray {
@@ -409,6 +417,7 @@ a:hover {
 .servCont {
   font-size: 0.9rem;
   font-family: Avenir-book;
+  line-height: 18px;
 }
 .ourServices {
   list-style: none;
@@ -730,6 +739,7 @@ a:hover {
   font-family: Avenir-light;
   font-size: 0.9rem;
   margin-bottom: 2px;
+  color: #fff;
 }
 .form-control {
   border-radius: 0 !important;
@@ -743,8 +753,8 @@ a:hover {
   color: #ffffff;
   font-family: Avenir-light;
   text-transform: uppercase;
-  font-size: 1rem;
-  padding: 6px 20px;
+  font-size: 0.85rem;
+  padding: 6px 30px;
   border: none;
 }
 .btn-primary:hover {
