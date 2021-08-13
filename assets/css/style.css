@@ -117,7 +117,7 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: right;
 }
 .workSec p {
   font-size: 0.9rem;
@@ -370,7 +370,6 @@ a:hover {
   font-size: 0.8rem;
   color: #fff;
   padding-left: 15px;
-  padding-top: 2rem;
 }
 .themeHead {
   font-size: 1.4rem !important;
@@ -403,7 +402,15 @@ a:hover {
     border-radius: 10px;
     padding: 3rem;
 }
+.copyImg img{
+  height: 4rem;
+  width: auto;
+  object-fit: contain;
+}
 
+.et_pb_text_inner {
+    line-height: 0; 
+}
 .boxGray {
   background: #707070;
   border: 1px soldi #707070;
