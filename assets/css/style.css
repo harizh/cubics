@@ -204,7 +204,7 @@ a.ovrLybtn:hover {
 }
 .popularRetreat .head01 {
   font-size: 2rem;
-  font-family: Avenir-light;
+      font-family: eurotile;
   color: #4d093e !important;
   text-align: center;
 }
@@ -560,6 +560,7 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
   position: relative;
+  font-family: eurotile;
 }
 .slideLink:hover {
   font-size: 1.2rem;
@@ -789,7 +790,7 @@ a:hover {
     font-weight: 700;
     color: #4d093e;
     padding: 0.8rem;
-    font-family: 'Avenir-black';
+    font-family: eurotile;
 }
 
 .ceo-message {
