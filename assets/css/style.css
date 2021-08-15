@@ -67,10 +67,10 @@ body {
   background-color: rgba(128, 130, 132, 1);
   display: flex;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 .bannerContent h4 {
-  font-size: 1.35rem;
+  font-size: 1.1rem;
   color: #fff;
   font-family: Avenir-light;
   font-weight: 300;
@@ -203,7 +203,7 @@ a.ovrLybtn:hover {
   font-family: Avenir-light;
 }
 .popularRetreat .head01 {
-  font-size: 2rem;
+  font-size: 2.2rem;
       font-family: eurotile;
   color: #4d093e !important;
   text-align: center;
@@ -211,9 +211,12 @@ a.ovrLybtn:hover {
 .popularRetreat .head-content {
   font-size: 1rem;
   font-family: Avenir-light;
-  text-align: center;
-  padding: 0 18% 2rem;
+  text-align: left;
+  padding: 0;
   line-height: 18px;
+}
+.f-works{
+  padding-bottom: 2.5rem;
 }
 .featured-work-card {
   position: relative;
@@ -794,8 +797,8 @@ a:hover {
   padding: 0.5rem 1.8rem;
 }
 .bannerContent h4 {
-  font-size: 3rem;
-    font-weight: 700;
+  font-size: 2.5rem;
+    /* font-weight: 700; */
     color: #4d093e;
     padding: 0.8rem;
     font-family: eurotile;
