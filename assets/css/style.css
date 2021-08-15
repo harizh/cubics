@@ -302,9 +302,9 @@ a.ovrLybtn:hover {
   text-transform: uppercase;
 }
 footer {
-  /* background-color: #4d093e; */
-  /* background-image: linear-gradient(to top, #370f31, #390f33, #3a1034, #3c1036, #3e1138, #44183d, #491e43, #4f2548, #593353, #64415e, #6e506a, #795e75); */
-  background: transparent linear-gradient(180deg, #500E33 0%, #500E33 22%, #531237 54%, #2C0E2E 86%, #2C0E2E 100%) 0% 0% no-repeat padding-box;
+
+  /* background: transparent linear-gradient(180deg, #500E33 0%, #500E33 22%, #531237 54%, #2C0E2E 86%, #2C0E2E 100%) 0% 0% no-repeat padding-box; */
+  background-image: linear-gradient(to bottom, #871355, #79104c, #6b0d43, #5d0b3b, #500832);
   padding: 3.5rem;
   display: flex;
   justify-content: center;
@@ -770,7 +770,8 @@ a:hover {
 }
 .sub-banner {
   /* background-color: #6d4f68; */
-  background: transparent linear-gradient(180deg, #500E33 0%, #500E33 22%, #531237 54%, #2C0E2E 86%, #2C0E2E 100%) 0% 0% no-repeat padding-box;
+  /* background: transparent linear-gradient(180deg, #500E33 0%, #500E33 22%, #531237 54%, #2C0E2E 86%, #2C0E2E 100%) 0% 0% no-repeat padding-box; */
+  background-image: linear-gradient(to bottom, #871355, #79104c, #6b0d43, #5d0b3b, #500832);
   min-height: 200px;
   display: flex;
   justify-content: center;
