@@ -307,7 +307,7 @@ a.ovrLybtn:hover {
 footer {
 
   /* background: transparent linear-gradient(180deg, #500E33 0%, #500E33 22%, #531237 54%, #2C0E2E 86%, #2C0E2E 100%) 0% 0% no-repeat padding-box; */
-  background-image: linear-gradient(to bottom, #871355, #79104c, #6b0d43, #5d0b3b, #500832);
+  background-image: linear-gradient(to top, #09000a, #110112, #180217, #1d031c, #220320, #2e092b, #3d0c37, #4c0f42, #6a1a57, #89246b, #ab2f7f, #ce3a92);
   padding: 3.5rem;
   display: flex;
   justify-content: center;
@@ -728,6 +728,21 @@ a:hover {
     object-fit: cover;
     object-position: center;
   }
+  .carousel-item img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+   video{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .sub-banner .col-md-4 {
+    padding: 1.5rem 1.8rem 2.2rem;
+}
 }
 
 .serviceCol {
@@ -771,10 +786,23 @@ a:hover {
 .btn-primary:hover {
   background: rgba(80, 8, 50, 0.9) 0% 0% no-repeat padding-box;
 }
+video{
+width:100%;
+height: 516px;
+object-fit: cover;
+object-position: center;
+}
+.videoDiv{
+  width: 100%; 
+  padding: 0; 
+  margin: 0; 
+  height: 100%; 
+  line-height: 0;
+}
 .sub-banner {
   /* background-color: #6d4f68; */
   /* background: transparent linear-gradient(180deg, #500E33 0%, #500E33 22%, #531237 54%, #2C0E2E 86%, #2C0E2E 100%) 0% 0% no-repeat padding-box; */
-  background-image: linear-gradient(to bottom, #871355, #79104c, #6b0d43, #5d0b3b, #500832);
+  background-image: linear-gradient(to top, #09000a, #110112, #180217, #1d031c, #220320, #2e092b, #3d0c37, #4c0f42, #6a1a57, #89246b, #ab2f7f, #ce3a92);
   min-height: 200px;
   display: flex;
   justify-content: center;
@@ -867,4 +895,9 @@ a:hover {
 .themeHead.l-head.contactHead{
       font-family: eurotile !important;
     text-transform: capitalize !important;
+}
+@media only screen and (max-width: 767px) {
+  .sub-banner .col-md-4 {
+    padding: 1.5rem 1.8rem 2.2rem;
+  }
 }
