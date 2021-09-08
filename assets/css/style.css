@@ -729,7 +729,7 @@ a:hover {
     object-position: center;
   }
   .carousel-item img{
-    height: 400px;
+    height: 516px;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -896,8 +896,14 @@ object-position: center;
       font-family: eurotile !important;
     text-transform: capitalize !important;
 }
+.carousel-item{
+  height: 68vh;
+}
 @media only screen and (max-width: 767px) {
   .sub-banner .col-md-4 {
     padding: 1.5rem 1.8rem 2.2rem;
+  }
+  .carousel-item {
+   height: auto;
   }
 }
