@@ -608,7 +608,7 @@ a:hover {
 .SlideHead {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 1rem;
 }
 .slideLink {
@@ -646,7 +646,7 @@ a:hover {
 }
 .slideLink img {
   width: auto;
-  height: 0.75rem;
+  height: 1.5rem;
   margin-left: 10px;
   object-fit: contain;
   object-position: center;
@@ -655,7 +655,7 @@ a:hover {
 }
 .slideLink:hover img {
   width: auto;
-  height: 0.75rem;
+  height: 1.5rem;
   margin-left: 10px;
   transition: 0.3s;
   object-fit: contain;
