@@ -528,7 +528,7 @@ a:hover {
   height: 25rem;
 }
 .SlideHead .themeHeadTwo{
-  font-size: 1.9rem !important;
+  font-size: 1.75rem !important;
 }
 .coverCenter {
   height: 100%;
@@ -646,7 +646,7 @@ a:hover {
 }
 .slideLink img {
   width: auto;
-  height: 1.5rem;
+  height: 16px;
   margin-left: 10px;
   object-fit: contain;
   object-position: center;
@@ -655,7 +655,7 @@ a:hover {
 }
 .slideLink:hover img {
   width: auto;
-  height: 1.5rem;
+  height: 16px;
   margin-left: 10px;
   transition: 0.3s;
   object-fit: contain;
@@ -914,11 +914,11 @@ object-position: center;
     object-position: center !important;
 }
 .misionHead{
-  font-size: 3rem;
-    font-weight: 700;
+  font-size: 2rem;
+    font-weight: 500;
     color: #4d093e;
     padding: 0.8rem;
-    font-family: 'Avenir-black';
+    font-family: eurotile;
 }
 .misioncont{
         font-size: 1.2rem;
