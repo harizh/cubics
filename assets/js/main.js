@@ -10,6 +10,7 @@ $("#retail .slideLink").click(function () {
 $("#corporate .slideLink").click(function () {
     $(".projectDet").removeClass("active");
     $("#healthcare").addClass("active");
+    
 });
 $("#healthcare .slideLink").click(function () {
     $(".projectDet").removeClass("active");
